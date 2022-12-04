@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white;
+    @apply dark:bg-black;
+  }
+  * { 
+    @apply font-serif;
+    @apply text-black;
+    @apply dark:text-white;
+  };
+}
