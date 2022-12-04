@@ -1,0 +1,8 @@
+
+<p class="{{ if .Scratch.Get "list" }}{{ else }}italic{{ end }} mb-4">
+  {{ .Summary }}
+</p>  
+<p class="italic mb-4">
+  Published <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "~2006.1.2" }}</time>, 
+  {{ lang.FormatNumberCustom 0 .WordCount "- . ," }} words
+</p>

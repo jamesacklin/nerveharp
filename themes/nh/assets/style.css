@@ -546,12 +546,12 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -567,25 +567,51 @@ body {
   text-align: right;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .italic {
   font-style: italic;
 }
 
-#content {
+a:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+}
+
+time {
+  font-family: Computer Modern Typewriter, Courier, monospace;
+}
+
+article {
   line-height: 1.5rem;
 }
 
-#content p {
-  text-indent: 1rem;
+article p,
+article h1,
+article h2,
+article h3 {
   margin-bottom: 1rem;
+}
+
+article h1, article h2, article h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 1rem;
 }
