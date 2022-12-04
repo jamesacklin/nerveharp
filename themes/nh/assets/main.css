@@ -6,10 +6,22 @@
   body {
     @apply bg-white;
     @apply dark:bg-black;
+    @apply max-w-2xl;
+    @apply mx-auto;
+    @apply px-6;
   }
   * { 
     @apply font-serif;
     @apply text-black;
     @apply dark:text-white;
   };
+}
+
+#content {
+  @apply leading-6;
+}
+
+#content p {
+  @apply indent-4;
+  @apply mb-4;
 }

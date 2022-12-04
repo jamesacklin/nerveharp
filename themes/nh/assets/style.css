@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Arial, sans-serif;
+  font-family: Computer Modern Sans, Arial, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -126,7 +126,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Computer Modern Typewriter, Courier, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -431,8 +431,16 @@ body {
   }
 }
 
+body {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 * {
-  font-family: Times New Roman, serif;
+  font-family: Computer Modern Serif, Times New Roman, serif;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
@@ -538,22 +546,30 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .block {
   display: block;
 }
 
-.flex {
-  display: flex;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.flex-col {
-  flex-direction: column;
+.text-right {
+  text-align: right;
 }
 
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-lg {
@@ -561,14 +577,15 @@ body {
   line-height: 1.75rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .italic {
   font-style: italic;
 }
 
-.hover\:underline:hover {
-  text-decoration-line: underline;
+#content {
+  line-height: 1.5rem;
+}
+
+#content p {
+  text-indent: 1rem;
+  margin-bottom: 1rem;
 }
