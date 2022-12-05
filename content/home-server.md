@@ -34,7 +34,7 @@ This worked about 60% of the time. The Raspberry Pi was a little underpowered to
 
 I would still like to have a remote-controlled network music player. If I wind up with some spare cash one day, I would love to build an Intel NUC into a passively-cooled Akasa Turing case and replicate this setup.
 
-![A Rasperry Pi and an audio amplifier](pi.png)
+![A Rasperry Pi and an audio amplifier](/images/pi.png)
 
 Here’s a photo of my living room music streamer and the USB DAC/amp. The hard drive was hidden in a cabinet below, since it made a good bit of noise.
 
@@ -48,7 +48,7 @@ Despite the obvious drawbacks of running a noisy, low-capacity rack-mount server
 
 The Raspberry Pi was also still a little too underpowered to handle commands from M.A.L.P., so I ditched that idea altogether in my next iteration.
 
-![An empty rack-mounted server enclosure](rack.png)
+![An empty rack-mounted server enclosure](/images/rack.png)
 
 I don’t have any photos of this setup since I mostly remember it by sound, but here’s a picture of the enclosure itself just before the neighborhood scrap hauler took it away.
 
@@ -70,13 +70,13 @@ I still wanted music in my living room, so I re-created the Raspberry Pi streame
 
 Surprisingly enough, this Docker configuration actually worked, and I listened to music in my living room using this setup for quite some time with no fan noise or any visible computer to speak of. I also ran SoulseekQt in another Docker container on the server, so I was able to download music, import it into the library, and enjoy it within minutes.
 
-![A computer under construction](atx-progress-1.png)
+![A computer under construction](/images/atx-progress-1.png)
 
-![A computer in a messy basement](atx-progress-2.png)
+![A computer in a messy basement](/images/atx-progress-2.png)
 
 Here are some photos of the build underway on Christmas Eve 2021. Treadmills, appliances, cleaning products, and unused children's toys are all part of the residential basement server experience.
 
-![A computer on a shelf in a basement](atx-finished.png)
+![A computer on a shelf in a basement](/images/atx-finished.png)
 
 This is the finished tower, powered off in my basement on Christmas Day 2021; I think I was getting a baseline for its power draw. Those are our actual winter boots.
 
@@ -98,17 +98,17 @@ The setup with Emby also lets me grant guest access to friends so they can enjoy
 
 Somewhere along the way, I deprioritized running pihole, so I set that back up on the Raspberry Pi along with cloudflared to provide DNS for the entire network. Now, even clients on my guest wireless network can enjoy an ad-free browsing experience.
 
-![Networking equipment alongside a server, a laptop, and a laser printer](network-progress.png)
+![Networking equipment alongside a server, a laptop, and a laser printer](/images/network-progress.png)
 
 Here’s a photo of the setup once everything worked in concert by April 2022. Given the number of things plugged in and running here, I’m quite proud of the power draw.
 
-![Networking equipment mounted on a wall alongside a server and a laser printer](network-finished.png)
+![Networking equipment mounted on a wall alongside a server and a laser printer](/images/network-finished.png)
 
 Eventually I zip-tied everything to a pegboard to complete the home sysadmin aesthetic. With the exception of labeling all the ports, drops, and machines, this is pretty much my setup as it exists today.
 
 # Current configuration
 
-From April 2022 to time of writing.
+From April 2022 to late November 2022.
 
 ### TrueNAS server
 

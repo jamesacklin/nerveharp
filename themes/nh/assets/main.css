@@ -9,6 +9,7 @@
     @apply max-w-2xl;
     @apply mx-auto;
     @apply px-6;
+    @apply py-4;
   }
   * { 
     @apply font-serif;
@@ -30,7 +31,6 @@ article {
   @apply leading-6;
 }
 
-
 article p,
 article h1,
 article h2,
@@ -41,4 +41,13 @@ article h3 {
 article h1, article h2, article h3 {
   @apply text-2xl;
   @apply pt-4;
+}
+
+article ul {
+  @apply list-disc;
+  @apply pl-4;
+}
+
+article ul ul {
+  @apply pl-4;
 }

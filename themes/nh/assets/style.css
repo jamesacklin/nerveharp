@@ -419,6 +419,10 @@ video {
   display: none;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -437,6 +441,8 @@ body {
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 * {
@@ -563,18 +569,12 @@ body {
   padding-bottom: 1rem;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .text-right {
   text-align: right;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-2xl {
@@ -582,8 +582,9 @@ body {
   line-height: 2rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .italic {
@@ -614,4 +615,13 @@ article h1, article h2, article h3 {
   font-size: 1.5rem;
   line-height: 2rem;
   padding-top: 1rem;
+}
+
+article ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+article ul ul {
+  padding-left: 1rem;
 }
