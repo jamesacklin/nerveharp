@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     plugin(function ({ addBase }) {
       addBase({
-        html: { fontSize: "18px" },
+        html: { fontSize: "20px" },
       });
     }),
   ],

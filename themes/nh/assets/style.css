@@ -420,7 +420,7 @@ video {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body {
@@ -552,6 +552,10 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -624,4 +628,8 @@ article ul {
 
 article ul ul {
   padding-left: 1rem;
+}
+
+.last-of-type\:mb-0:last-of-type {
+  margin-bottom: 0px;
 }
