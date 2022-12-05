@@ -41,8 +41,14 @@ article p + p {
   @apply indent-6;
 }
 
-article p > img {
-  @apply my-4;
+article figure {
+  @apply my-6;
+}
+
+article figure figcaption {
+  @apply font-sans;
+  @apply text-sm;
+  @apply mt-2;
 }
 
 article h1, article h2, article h3 {
