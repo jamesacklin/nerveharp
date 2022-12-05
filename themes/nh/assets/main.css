@@ -38,7 +38,7 @@ article h3 {
 }
 
 article p + p {
-  @apply indent-6;
+  @apply indent-4;
 }
 
 article figure {
@@ -54,6 +54,11 @@ article figure figcaption {
 article h1, article h2, article h3 {
   @apply text-2xl;
   @apply pt-8;
+}
+
+article p + ul {
+  @apply mt-4;
+  @apply mb-4;
 }
 
 article ul {
