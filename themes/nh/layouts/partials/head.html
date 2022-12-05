@@ -4,5 +4,5 @@
   <title>Nerveharp Information Services</title>
   {{ $style := resources.Get "style.css" }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css" media="print" onload="this.media='all'; this.onload=null;" as="font">
 </head>
