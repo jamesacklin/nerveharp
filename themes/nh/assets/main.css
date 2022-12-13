@@ -84,4 +84,5 @@ article pre code {
   @apply p-4;
   @apply bg-gray-100;
   @apply dark:bg-gray-900;
+  @apply overflow-auto;
 }

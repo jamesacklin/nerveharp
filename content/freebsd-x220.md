@@ -84,7 +84,6 @@ clear_tmp_enable="YES"
 
 # Enable Linux compatibility
 linux_enable="YES"
-
 ```
 
 And `/boot/loader.conf`:
