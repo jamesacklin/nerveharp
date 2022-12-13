@@ -74,11 +74,13 @@ article ul ul {
 }
 
 article code,
-pre {
+article pre {
   @apply font-mono;
 }
 
 article pre code {
+  @apply block;
   @apply my-4;
   @apply p-4;
+  @apply bg-gray-100;
 }
