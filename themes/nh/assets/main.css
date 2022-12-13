@@ -9,9 +9,7 @@
     @apply max-w-2xl;
     @apply mx-auto;
     @apply px-6;
-    @apply py-4;
-  }
-  * { 
+    @apply py-4; 
     @apply font-serif;
     @apply text-black;
     @apply dark:text-white;
@@ -51,6 +49,11 @@ article figure figcaption {
   @apply mt-2;
 }
 
+article a {
+  @apply underline;
+  @apply underline-offset-2;
+}
+
 article h1, article h2, article h3 {
   @apply text-2xl;
   @apply pt-8;
@@ -68,4 +71,17 @@ article ul {
 
 article ul ul {
   @apply pl-4;
+}
+
+article code,
+pre {
+  @apply font-mono;
+}
+
+article .highlight {
+  @apply my-4;
+}
+
+article .highlight pre {
+  @apply p-4;
 }
