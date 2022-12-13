@@ -78,10 +78,7 @@ pre {
   @apply font-mono;
 }
 
-article .highlight {
+article pre code {
   @apply my-4;
-}
-
-article .highlight pre {
   @apply p-4;
 }
