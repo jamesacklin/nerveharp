@@ -73,7 +73,7 @@ economy_cx_lowest="Cmax"
 
 ## Other optimizations
 
-These are commented to be self-explanetory. Here's my `/etc/rc.conf`:
+These are commented to be self-explanatory. Here's my `/etc/rc.conf`:
 
 ```txt
 # Don't hang the boot process while waiting for DHCP
@@ -140,7 +140,7 @@ This installed my window manager theme, made the correct changes to the right-cl
 
 ## Overall impressions
 
-My entire experience was no more complicated than a typical Arch Linux installation. I wasn't anticipating a "just works" experience like Fedora or Ubuntu, but I was pleasantly suprised to find that my x220 now runs quietly and efficiently while I putter around.
+My entire experience was no more complicated than a typical Arch Linux installation. I wasn't anticipating a "just works" experience like Fedora or Ubuntu, but I was pleasantly surprised to find that my x220 now runs quietly and efficiently while I putter around.
 
 I had previously committed this entire process on the same machine with OpenBSD, but I found that the CPU fan ran audibly. Some quick research online told me that the OpenBSD developers removed something questionable in the fan driver -- which is good and in line with their security goals but not great for me.
 
