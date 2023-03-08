@@ -1,12 +1,14 @@
 <header class="py-4 mb-4">
   {{ if ne .IsHome true }}
-  <div class="mb-4">
+  <div class="mb-4 text-sm">
     <a href="/">&larr; Back home</a>
   </div>
   {{ end }}
-  <h1 class="text-2xl mb-4 pt-2"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <h1 class="text-base mb-4 pt-2 font-bold">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
   {{ if ne .IsHome true }} {{ partial "summary.html" . }} {{ else }}
-  <p class="italic mb-4">Offering a zero-nines guarantee since 2020</p>
+  <p class="mb-4 text-base">Offering a zero-nines guarantee since 2020</p>
   {{ end }}
   <hr />
 </header>

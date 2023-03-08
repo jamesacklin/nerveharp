@@ -10,7 +10,7 @@
     @apply mx-auto;
     @apply px-6;
     @apply py-4; 
-    @apply font-serif;
+    @apply font-sans;
     @apply text-black;
     @apply dark:text-white;
   };
@@ -26,13 +26,16 @@ time {
 }
 
 article {
-  @apply leading-6;
+  @apply leading-relaxed;
 }
 
 article h1,
 article h2,
 article h3 {
+  @apply pt-8;
   @apply mb-4;
+  @apply text-base;
+  @apply font-bold;
 }
 
 article p + p {
@@ -54,11 +57,6 @@ article a {
   @apply underline-offset-2;
 }
 
-article h1, article h2, article h3 {
-  @apply text-2xl;
-  @apply pt-8;
-}
-
 article p + ul {
   @apply mt-4;
   @apply mb-4;
@@ -67,6 +65,10 @@ article p + ul {
 article ul {
   @apply list-disc;
   @apply pl-4;
+}
+
+article ul li {
+  @apply mb-2;
 }
 
 article ul ul {
