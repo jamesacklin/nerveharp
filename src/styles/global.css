@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Tiempos";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/TiemposText-Regular.otf");
+}
+
+@font-face {
+  font-family: "Tiempos";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/TiemposText-RegularItalic.otf");
+}
+
+.prose * {
+  @apply text-lg font-normal leading-8 font-serif text-black;
+}
+
+.prose .astro-code {
+  @apply text-lg;
+}
+
+.prose .astro-code * {
+  @apply font-mono text-lg;
+  color: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
