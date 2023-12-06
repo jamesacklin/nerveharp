@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Tiempos";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/TiemposText-Regular.otf");
+}
+
+@font-face {
+  font-family: "Tiempos";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/TiemposText-RegularItalic.otf");
+}
+
+body {
+  @apply bg-white dark:bg-black;
+}
+
+.prose * {
+  @apply text-lg font-normal leading-8 font-sans text-black dark:text-white;
+  hyphens: auto;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  @apply font-bold;
+}
+
+.prose img {
+  @apply rounded-xl;
+}
+
+.prose .astro-code {
+  @apply text-lg;
+}
+
+.prose .astro-code * {
+  @apply font-mono text-lg;
+  color: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
