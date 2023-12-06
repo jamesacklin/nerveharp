@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ["Tiempos", "serif"],
+        sans: ['system-ui', 'sans-serif']
       },
     },
   },

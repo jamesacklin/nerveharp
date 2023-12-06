@@ -1,6 +1,6 @@
 ---
 title: "Packing a single bag for air travel"
-pubDate: "12-21-2022"
+pubDate: Dec 21 2022
 description: "I apply my experience with backpacking and camping to packing lightly and efficiently for air travel."
 ---
 

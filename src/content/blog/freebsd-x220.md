@@ -1,6 +1,6 @@
 ---
 title: "FreeBSD 13 on a Lenovo x220"
-pubDate: "12-13-2022"
+pubDate: Dec 13 2022
 description: "Some notes from my recent install of FreeBSD 13 on a Lenovo x220."
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Using Tailscale for my home server"
-pubDate: "12-12-2022"
+pubDate: Dec 12 2022
 description: "I recently did away with reverse-proxying HTTPS to my home server in favor of Tailscale, a one-click VPN."
 ---
 

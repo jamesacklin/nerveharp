@@ -1,6 +1,6 @@
 ---
 title: "My home server"
-pubDate: "11-24-2022"
+pubDate: Nov 24 2022
 description: "This details my journey into self-hosting, running a server in my basement, and small-scale home networking over the past two and a half years."
 ---
 

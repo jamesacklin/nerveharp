@@ -15,7 +15,14 @@
 }
 
 .prose * {
-  @apply text-lg font-normal leading-8 font-serif text-black;
+  @apply text-lg font-normal leading-8 font-sans text-black;
+  hyphens: auto;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  @apply font-bold;
 }
 
 .prose .astro-code {
